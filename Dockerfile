@@ -1,10 +1,6 @@
 FROM ubuntu:20.04
 LABEL maintainer="Benjamin Christie"
 
-###
-### Note: If an Xorg server is running on the host, then the guest docker image does NOT require xorg to be installed
-###
-
 # environment variables
 ARG DEBIAN_FRONTEND=noninteractive
 ARG DEBCONF_NONINTERACTIVE_SEEN=true
